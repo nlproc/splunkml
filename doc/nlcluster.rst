@@ -8,7 +8,7 @@ nlcluster
 Contents
 ------------------------------------------------
 
-.. contents:: :local:
+.. contents:: 
 
 
 Synopsis

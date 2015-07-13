@@ -8,7 +8,7 @@ outliers
 Contents
 ------------------------------------------------
 
-.. contents:: :local:
+.. contents::
 
 
 Synopsis
