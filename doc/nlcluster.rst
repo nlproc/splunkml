@@ -8,9 +8,7 @@ nlcluster
 Contents
 ------------------------------------------------
 
-.. toctree::
-
-  nlcluster
+.. contents:: :local:
 
 
 Synopsis

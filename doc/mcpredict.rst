@@ -8,9 +8,7 @@ mcpredict
 Contents
 ------------------------------------------------
 
-.. toctree::
-
-  mcpredict
+.. contents:: :local:
 
 Synopsis
 ------------------------------------------------

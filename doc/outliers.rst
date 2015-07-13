@@ -8,9 +8,7 @@ outliers
 Contents
 ------------------------------------------------
 
-.. toctree::
-
-  outliers
+.. contents:: :local:
 
 
 Synopsis
