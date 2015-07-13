@@ -121,7 +121,7 @@ Check out Command Documentation
 
 Now that you are ready to use the SplunkML Commands, you can check out the command documentation for the commmands below. We'll have more commands listed here as we update, so check back again soon.
 
-  - :ref:`splunkml-mctrain`, :ref:`splunkml-mcpredict`
-  - :ref:`splunkml-outliers`
-  - :ref:`splunkml-nlcluster`
+  - splunkml-mctrain_, splunkml-mcpredict_
+  - splunkml-outliers_
+  - splunkml-nlcluster_
 
