@@ -45,7 +45,8 @@ Examples
 
 .. _mcpredict-twitter-sentiment:
 
-**Example 1**:
+Example 1
+````````````````````````````````````````````````
 
   *For* ``mctrain`` *example for training the* ``twitter_sentiment`` *model, click* `here <mctrain.rst#mctrain-twitter-sentiment>`_.
 
@@ -63,7 +64,8 @@ Note the ``sentiment_predicted`` field in each event in the resulting event stre
 
 .. _mcpredict-census-income:
 
-**Example 2**:
+Example 2
+````````````````````````````````````````````````
 
  *For* ``mctrain`` *example for training the* ``census_income`` *model, click* `here <mctrain.rst#mctrain-census-income>`_.
 
@@ -86,7 +88,8 @@ Here's a method for computing the mean accuracy over the test set.::
 
 .. _mcpredict-botnet-traffic:
 
-**Example 3**:
+Example 3
+````````````````````````````````````````````````
 
   *For* ``mctrain`` *example for training the* ``botnet_traffic`` *model, click* `here <mctrain.rst#mctrain-botnet-traffic>`_.
 

@@ -101,7 +101,10 @@ Examples
 
 .. _mctrain-twitter-sentiment:
 
-**Example 1**: Using twitter data from the Sentiment Analysis app [6]_, train a classifier that can classify sentiment on tweets.  First, import the data into Splunk by dropping both files into a directory and adding that directory via the Data Inputs configuration console.  For this example, we will convert the file name to the target field that we want to use in our model using the ``rex`` command.::
+Example 1
+````````````````````````````````````````````````
+
+Using twitter data from the Sentiment Analysis app [6]_, train a classifier that can classify sentiment on tweets.  First, import the data into Splunk by dropping both files into a directory and adding that directory via the Data Inputs configuration console.  For this example, we will convert the file name to the target field that we want to use in our model using the ``rex`` command.::
 
   index=twitter | rex field=source ".+\/(?<sentiment>-?1)\.txt"  | head 50000 | mctrain target=sentiment model=twitter_sentiment 
 
@@ -128,7 +131,10 @@ Note that using either LSI [4]_ or TF-IDF [5]_ will result in an increase in tra
 
 .. _mctrain-census-income:
 
-**Example 2**: Using census data from UCI repository [7]_, train a classifier that can predict income level greater or lower than $50K.  You can download the dataset `here <https://archive.ics.uci.edu/ml/machine-learning-databases/adult/>`_. You will need to convert this dataset to CSV format in order to import it into splunk.  For this example, we will assume that the data was converted into 2 files, ``census-train.csv`` and ``census-test.csv``. We will operate on ``census-train.csv`` in order to train the classifier::
+Example 2
+````````````````````````````````````````````````
+
+Using census data from UCI repository [7]_, train a classifier that can predict income level greater or lower than $50K.  You can download the dataset `here <https://archive.ics.uci.edu/ml/machine-learning-databases/adult/>`_. You will need to convert this dataset to CSV format in order to import it into splunk.  For this example, we will assume that the data was converted into 2 files, ``census-train.csv`` and ``census-test.csv``. We will operate on ``census-train.csv`` in order to train the classifier::
 
   index=sample source="*census-train*" | mctrain test_size=0 target=income model=census_income age, workclass, fnlwgt, education, education_num, marital_status, occupation, arming_fishing, relationship, race, sex, capital_gain, capital_loss, hours_per_week, native_country 
 
@@ -145,7 +151,10 @@ Note that the score field is unset here, since ``test_size=0``, this field is me
 
 .. _mctrain-botnet-traffic:
 
-**Example 3**: Using data from Scenario 42 from the CTU-13 Dataset [8]_, train a classifier that can label traffic from a botnet or other sources.  You can download the specific scenario dataset `here <http://mcfp.weebly.com/ctu-malware-capture-botnet-42.html>`_ (Be sure to download the labeled netflow file at the bottom).::
+Example 3
+````````````````````````````````````````````````
+
+Using data from Scenario 42 from the CTU-13 Dataset [8]_, train a classifier that can label traffic from a botnet or other sources.  You can download the specific scenario dataset `here <http://mcfp.weebly.com/ctu-malware-capture-botnet-42.html>`_ (Be sure to download the labeled netflow file at the bottom).::
 
   index=sample source="*ctu*" | head 30000 | mctrain target=Label model="botnet_traffic" num_fields="Sport,Dport" str_fields="sTos,dTos"  Dur, Proto, SrcAddr, Sport, Dir, DstAddr, Dport, State, sTos, dTos, TotPkts, TotBytes, SrcBytes
 
