@@ -35,7 +35,7 @@ Welcome to SplunkML. Our goal is to provide the best possible Machine Learning t
 Installation
 ------------------------------------------------
 
-Please see `INSTALL in the doc directory <doc/INSTALL.rst>`.
+Please see `INSTALL in the doc directory <doc/INSTALL.rst>`_.
 
 
 Command Documentation
