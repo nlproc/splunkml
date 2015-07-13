@@ -74,7 +74,7 @@ Install them using Pip. It's best to install each one separately to track potent
 Install App into Splunk
 ------------------------------------------------
 
-Now you can install the app into Splunk. The easiest way to do this is click the *Download ZIP* button on the GitHub page for SplunkML (`https://github.com/nlproc/splunkml`_). You can then install the app by logging on to SplunkWeb in your Splunk installation (ensure that you have the privilege to install apps), and going to *Apps -> Manage Apps*. 
+Now you can install the app into Splunk. The easiest way to do this is click the *Download ZIP* button on the GitHub page for SplunkML (`<https://github.com/nlproc/splunkml>`_). You can then install the app by logging on to SplunkWeb in your Splunk installation (ensure that you have the privilege to install apps), and going to *Apps -> Manage Apps*. 
 
 Click the *Install app from file* button and upload the zip file that you just downloaded in the next page. You will then be prompted to restart splunk. Before doing so, login to the shell of the server you just installed the app. Rename the app directory for the newly installed app as follows:
 

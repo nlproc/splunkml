@@ -141,7 +141,7 @@ Note that since the dataset is already split into *train* and *test* subsets, we
 Note that the score field is unset here, since ``test_size=0``, this field is meaningless.
 
 
-*For* ``mcpredict`` *example to predict income level using the* ``census_income`` *model, click* :ref:`here <mcpredict-census-income>`.
+*For* ``mcpredict`` *example to predict income level using the* ``census_income`` *model, click* `here <mcpredict.rst#mcpredict-census-income>`_.
 
 .. _mctrain-botnet-traffic:
 
