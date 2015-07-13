@@ -19,13 +19,13 @@ System Packages
 
 First, we'll install some packages in your operating system. For the purposes of these instructions, we'll assume you're using an Ubuntu/Debian installation; however, you can modify them for your specific distribution. You'll need these system packages:
 
-  - **python** (Python 2.7.X recommended, no support for Python 3.X yet)
-  - **python-dev** (Python development headers)
-  - **python-pip** (Pip Python Package Manager)
-  - **python-numpy** (NumPy Python Library)
-  - **libblas-dev**
-  - **liblapack-dev**
-  - **gfortran**
+  * **python** (Python 2.7.X recommended, no support for Python 3.X yet)
+  * **python-dev** (Python development headers)
+  * **python-pip** (Pip Python Package Manager)
+  * **python-numpy** (NumPy Python Library)
+  * **libblas-dev**
+  * **liblapack-dev**
+  * **gfortran**
 
 Install them using Apt (or your system's package installer if you're not using Ubuntu or Debian).
 
@@ -53,10 +53,10 @@ Python Packages using Pip
 
 Now, we'll install the Python dependencies needed by the commands. You'll use Pip to install these packages, but you'll need to install these packages in a very specific way. For the commands to see these dependencies, they will need to be installed in the Splunk installation's Python library path; however, these libraries will be compiled using the system Python's headers.
 
-  - **execnet** (`Execnet: Distributed Python Deployment and Communication <http://codespeak.net/execnet/index.html>`_)
-  - **scikit-learn** (`scikit-learn: Machine Learning in Python <http://scikit-learn.org/stable/>`_)
-  - **gensim** (`gensim: Topic modeling for humans <https://radimrehurek.com/gensim/index.html>`_)
-  - **splunk-sdk** (`Splunk SDK for Python <http://dev.splunk.com/python>`_, needed for custom search commands)
+  * **execnet** (`Execnet: Distributed Python Deployment and Communication <http://codespeak.net/execnet/index.html>`_)
+  * **scikit-learn** (`scikit-learn: Machine Learning in Python <http://scikit-learn.org/stable/>`_)
+  * **gensim** (`gensim: Topic modeling for humans <https://radimrehurek.com/gensim/index.html>`_)
+  * **splunk-sdk** (`Splunk SDK for Python <http://dev.splunk.com/python>`_, needed for custom search commands)
 
 Install them using Pip. It's best to install each one separately to track potential errors or exceptions.
 
@@ -121,7 +121,7 @@ Check out Command Documentation
 
 Now that you are ready to use the SplunkML Commands, you can check out the command documentation for the commmands below. We'll have more commands listed here as we update, so check back again soon.
 
-  - `mctrain <mctrain.rst>`_, `mcpredict <mcpredict.rst>`_
-  - `outliers <outliers.rst>`_
-  - `nlcluster <nlcluster.rst>`_
+  * `mctrain <mctrain.rst>`_, `mcpredict <mcpredict.rst>`_
+  * `outliers <outliers.rst>`_
+  * `nlcluster <nlcluster.rst>`_
 
