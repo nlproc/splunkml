@@ -48,7 +48,7 @@ Examples
 Example 1
 ````````````````````````````````````````````````
 
-  *For* ``mctrain`` *example for training the* ``twitter_sentiment`` *model, click* `here <mctrain.rst#mctrain-twitter-sentiment>`_.
+  *For* ``mctrain`` *example for training the* ``twitter_sentiment`` *model, click* `here <mctrain.rst#example-1>`_.
 
 Using twitter sentiment data from the Sentiment Analysis app [3]_, predict the sentiment value for a set of tweets.  We'll use ``tail`` to get untrained data from end of the dataset.
 
@@ -67,7 +67,7 @@ Note the ``sentiment_predicted`` field in each event in the resulting event stre
 Example 2
 ````````````````````````````````````````````````
 
- *For* ``mctrain`` *example for training the* ``census_income`` *model, click* `here <mctrain.rst#mctrain-census-income>`_.
+ *For* ``mctrain`` *example for training the* ``census_income`` *model, click* `here <mctrain.rst#example-2>`_.
 
 Using census data from UCI repository [4]_, predict income level greater or lower than $50K. This dataset comes with presplit *training* and *test* data, so we operate on the *test* source.::
 
@@ -91,7 +91,7 @@ Here's a method for computing the mean accuracy over the test set.::
 Example 3
 ````````````````````````````````````````````````
 
-  *For* ``mctrain`` *example for training the* ``botnet_traffic`` *model, click* `here <mctrain.rst#mctrain-botnet-traffic>`_.
+  *For* ``mctrain`` *example for training the* ``botnet_traffic`` *model, click* `here <mctrain.rst#example-3>`_.
 
 Using labeled botnet traffic from the CTU-13 Dataset [5]_, label traffic type, whether botnet or other type of application traffic.  We'll use data we didn't train on before, so we use the ``tail`` command in search for other data.::
 

@@ -126,7 +126,7 @@ Here's a snapshot of the results:
 
 Note that using either LSI [4]_ or TF-IDF [5]_ will result in an increase in training time, as well as a larger model persisted on disk (particularly in the case of LSI).
 
-*For* ``mcpredict`` *example to predict income level using the* ``twitter_sentiment`` *model, click* `here <mcpredict.rst#mcpredict-twitter-sentiment>`_.
+*For* ``mcpredict`` *example to predict income level using the* ``twitter_sentiment`` *model, click* `here <mcpredict.rst#example-1>`_.
 
 
 .. _mctrain-census-income:
@@ -147,7 +147,7 @@ Note that since the dataset is already split into *train* and *test* subsets, we
 Note that the score field is unset here, since ``test_size=0``, this field is meaningless.
 
 
-*For* ``mcpredict`` *example to predict income level using the* ``census_income`` *model, click* `here <mcpredict.rst#mcpredict-census-income>`_.
+*For* ``mcpredict`` *example to predict income level using the* ``census_income`` *model, click* `here <mcpredict.rst#example-2>`_.
 
 .. _mctrain-botnet-traffic:
 
@@ -164,7 +164,7 @@ Using data from Scenario 42 from the CTU-13 Dataset [8]_, train a classifier tha
 Note that we only use 30000 events from head. Since this dataset has a lot of data in each event, plus many different classes, we use a slightly smaller subset of the events for now.  Note the ``score`` indicates about 75% accuracy. 
 
 
-*For* ``mcpredict`` *example to label traffic using the* ``botnet_traffic`` *model, click* `here <mcpredict.rst#mcpredict-botnet-traffic>`_.
+*For* ``mcpredict`` *example to label traffic using the* ``botnet_traffic`` *model, click* `here <mcpredict.rst#example-3>`_.
 
 
 References
