@@ -123,7 +123,7 @@ Here's a snapshot of the results:
 
 Note that using either LSI [4]_ or TF-IDF [5]_ will result in an increase in training time, as well as a larger model persisted on disk (particularly in the case of LSI).
 
-*For* ``mcpredict`` *example to predict income level using the* ``twitter_sentiment`` *model, click* :ref:`here <mcpredict-twitter-sentiment>`.
+*For* ``mcpredict`` *example to predict income level using the* ``twitter_sentiment`` *model, click* `here <mcpredict.rst#mcpredict-twitter-sentiment>`_.
 
 
 .. _mctrain-census-income:
@@ -155,7 +155,7 @@ Note that the score field is unset here, since ``test_size=0``, this field is me
 Note that we only use 30000 events from head. Since this dataset has a lot of data in each event, plus many different classes, we use a slightly smaller subset of the events for now.  Note the ``score`` indicates about 75% accuracy. 
 
 
-*For* ``mcpredict`` *example to label traffic using the* ``botnet_traffic`` *model, click* :ref:`here <mcpredict-botnet-traffic>`.
+*For* ``mcpredict`` *example to label traffic using the* ``botnet_traffic`` *model, click* `here <mcpredict.rst#mcpredict-botnet-traffic>`_.
 
 
 References
